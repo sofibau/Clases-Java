@@ -1,4 +1,4 @@
-package ClaseJava.Clase1;
+package ClaseJava.ClasesNum;
 // scope es el límite de una varieble, el rango donde puede ser reconocida y se puede usar
 //con variable global puedes cambiar la variable cuantas veces quieras
 //la variable se pone fuera del main o de la función 

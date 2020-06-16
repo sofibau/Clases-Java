@@ -1,4 +1,4 @@
-package ClaseJava.Clase1;
+package ClaseJava.ClasesNum;
 
 public class Clase1 {
   

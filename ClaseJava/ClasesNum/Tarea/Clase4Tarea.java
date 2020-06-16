@@ -1,23 +1,22 @@
-package ClaseJava.Clase1.Clase3.Clase4;
-
-
-
-public class Clase4 {
-    public static void main(String Args[]){      
+package ClaseJava.ClasesNum.Tarea;
+//Tarea
+public class Clase4Tarea {
+	public static void main(String Args[]){      
         decirFecha(3, 02, 07);   
         decirFechaSiguiente(02, 04, 2000);
+        decirFechaConLetra(02, 04, 2000);
 
-}
+}	
+static int dia ;
+static int mes;
+static int año;
 
-	
-static String dia ;
-static String mes;
-static String año;
-public Clase4 (String dia, String mes, String año){
+public Clase4Tarea (int dia, int mes, int año){
     this.dia = dia;
     this.mes = mes;
     this.año = año;
 }
+//Estructura de fecha
 private static void decirFechaConCeros(int dia, int mes, int año) {
     System.out.println("0" + dia +  "/" + "0"+ mes + "/" + año);
     System.out.println("0" + mes + "/" + "0"+ dia+ "/"  + año);
@@ -51,7 +50,7 @@ public static void decirFecha(int dia, int mes, int año){
 private static boolean indexOf(int[] mesesCon30dias, int mes2) {
 	return true;
 }
-
+//Siguiente fecha
 private static void decirFechaSiguiente (int dia, int mes, int año){
     int mesesCon30dias [] = {4,6,9,11};
 
@@ -76,11 +75,20 @@ private static void decirFechaSiguiente (int dia, int mes, int año){
     mes = (mes +1);
     dia = (dia+1);
     decirFecha(dia, mes, año);
+    }
+}
+//Decir mes
+public static void decirFechaConLetra(int dia, int mes, int año){ 
+    String meses [] = {"Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", 
+    "Octubre", "Noviembre", "Diciembre" };
+    System.out.println("La fecha es: " + " "+ dia + " "+ "de"+ " " +  meses[mes-1] + " "+ "de"+ " " +  año);
+    
 
 }
 
 
-}
+
+
 }
 
 

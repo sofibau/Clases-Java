@@ -1,4 +1,4 @@
-package ClaseJava.Clase1.Clase3;
+package ClaseJava.ClasesNum.Tarea;
 import java.util.Scanner;
 
 
