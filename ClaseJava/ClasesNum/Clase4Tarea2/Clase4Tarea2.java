@@ -1,5 +1,5 @@
-package ClaseJava.ClasesNum.Tarea;
-java.lang.Math;
+package ClaseJava.ClasesNum.Clase4Tarea2;
+import java.lang.Math;
 
 public class Clase4Tarea2 {
     public static void main(String Args[]){ 
@@ -34,7 +34,7 @@ public class Clase4Tarea2 {
         float vector = sqrt( (Math.pow(componenteX, 2)) + (Math.pow(componenteY, 2)));
         float angulo = atan2(componenteX, componenteY);
         System.out.println("El vector es:" + vector);
-        System.out.println("El su ángulo es:" + angulo);
+        System.out.println("El su ángulo es:" + vector);
 
     }
 
