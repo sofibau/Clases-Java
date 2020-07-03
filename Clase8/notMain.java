@@ -5,12 +5,16 @@ public class notMain {
 
         PuntoCartesiano PuntoCartesiano = new PuntoCartesiano(4,5);
         Triangulo triangulo = new Triangulo(0,0,2,0,4,0);
+        Cuadrilatero cuadrilatero = new Cuadrilatero(1, 0, 1, 3, 3, 0, 3, 3);
         Linea linea1 = new Linea(1,2,4,9);
         Linea linea2 = new Linea(3,4,8,-2);
-        PuntoCartesiano plano;  
+        PuntoCartesiano plano;
+
         PuntoCartesiano.imprimirPunto();
         triangulo.enseñarPuntosL();
         triangulo.show();
+
+        cuadrilatero.show();
 
      
       

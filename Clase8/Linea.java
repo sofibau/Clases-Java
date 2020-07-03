@@ -15,6 +15,10 @@ public class Linea {
         this.punto2 = new PuntoCartesiano(x2,y2);
 
     }
+    public Linea(PuntoCartesiano punto1, PuntoCartesiano punto2){
+        this.punto1 = punto1;
+        this.punto2 = punto2;
+    }
 
     public void enseñarPuntos(){
         punto1.imprimirPunto();
